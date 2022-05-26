@@ -7,6 +7,7 @@
     <?php
     echo '<p>This is PHP!</p>';
     ?>
-  <p>This message was created in GitHub/p>
+  <p>This message was created in GitHub</p>
+  <p>Hello from VSCode</p>
   </body>
 </html>
