@@ -7,6 +7,6 @@
     <?php
     echo '<p>This is PHP!</p>';
     ?>
-  <p>Hello from GitHub</p>
+  <p>This message was created in GitHub/p>
   </body>
 </html>
