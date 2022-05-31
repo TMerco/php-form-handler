@@ -66,7 +66,26 @@
     </div>
     <div class="col-sm-8">
       <h2>PHP Form Handler</h2>
-        <form action="/action_page.php">
+
+
+      <?php
+
+        if(isset($_POST["FirstName"])){//Show data
+        echo $_POST["FirstName"];
+        }else{//show form
+        echo '
+            <form method="post" action="">
+            <p>First Name:<input type="text" name="FirstName"/></p>
+            <p><input type="submit" /></p>
+            </form>
+            ' ;
+        }
+
+    ?>
+
+
+
+        <form method="post" action="">
             <div class="mb-3 mt-3">
               <label for="FirstName">First Name:</label>
               <input type="text" class="form-control" id="FirstName" placeholder="Enter first name" name="FirstName">
